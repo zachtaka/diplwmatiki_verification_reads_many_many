@@ -1,0 +1,13 @@
+erwtisi:
+1) dn elegxei an p.x. o slave apantisei me error tote an o master lavei stin apantisi tou write to error auto
+2) ekana 1milion transaction me writes mono (me unaligned on kai ola ta stall rates sto 50%) kai epekse kanonika, pou gia na sigoureuto oti dn exw kanei kamia vlakeia alla ton upologismo tou HADDR sto AHB gia na dw an tha mou petaksei error kai eutixos to petakse kanonika.
+3) 1 bug sta read pou dn upologiza swsta to epomeno upologismo tou address beat otan exw unaligned, to eftiaksa kai meta ksanaekana ena test me 100.000 writes kai 100.000 reads kai pali ola kala
+ola ta test eginan me tis eksis parametrous
+	M_GEN_RATE_WR       = 25 // number of write transactions to be generated 
+	M_GEN_RATE_RD       = 25 // number of read transactions to be generated
+	M_DO_UNALIGNED      = 1'b1 // Size-Unaligned transfers?
+	S_SERVE_RATE        = 50 // Rate at which Slave generates responses
+	S_ERROR_RATE        = 50 // Rate at which Slave generates errors
+	S_STALL_RATE_AW     = 50 // Stalling rate for channel AW
+	S_STALL_RATE_W      = 50 // Stalling rate for channel W
+	S_STALL_RATE_AR     = 50 // Stalling rate for channel AR

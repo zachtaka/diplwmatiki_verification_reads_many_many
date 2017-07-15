@@ -1,0 +1,9 @@
+tb/vifs/axi_rv_if_s_r_abstract_pkg.sv
+tb/vifs/axi_rv_if_s_r.sv
+tb/vifs/axi_rv_if_s_w_abstract_pkg.sv
+tb/vifs/axi_rv_if_s_w.sv
+
+tb/axi_s_r_responder_pkg.sv
+tb/axi_s_w_responder_pkg.sv
+
+tb_glue/axi_slave_tb.sv

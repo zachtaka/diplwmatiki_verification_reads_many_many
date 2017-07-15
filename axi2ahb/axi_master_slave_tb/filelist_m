@@ -1,0 +1,9 @@
+tb/vifs/axi_rv_if_m_r_abstract_pkg.sv
+tb/vifs/axi_rv_if_m_r.sv
+tb/vifs/axi_rv_if_m_w_abstract_pkg.sv
+tb/vifs/axi_rv_if_m_w.sv
+
+tb/axi_m_r_initiator_pkg.sv
+tb/axi_m_w_initiator_pkg.sv
+
+tb_glue/axi_master_tb.sv

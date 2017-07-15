@@ -1,0 +1,8 @@
+Notes
+
+1) to pending_write to ekana aneksartito apo to pote tha stalei i apantisi to b kanali, diladi tha dextw neo write molis staloun kai ta teleutaia data sto ahb, amesws tote tha mporw na dextw neo transaction kai dn koitaw to b kanali.
+opote isws xreiastei mia fifo sto b kanali
+
+antitheta sta read perimenw na fygoun kai ta teleutaia read data apo to r kanali prin parw allo transaction gt fantazomai oti ekei dn tha ithela na valw mia fifo me read data
+
+2) na deiksw ston taso gia to busy kai to oti tote o slave katevazei to hready sto low gia na eimai sigouros oti douleuei kala

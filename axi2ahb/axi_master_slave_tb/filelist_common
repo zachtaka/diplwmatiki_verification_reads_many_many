@@ -1,0 +1,8 @@
+ni_global.sv
+noc_global.sv
+
+axi_duth_if/axi_duth_if_r.sv
+axi_duth_if/axi_duth_if_w.sv
+
+tb/tb_pkg_general.sv
+tb/axi_transactions_pkg.sv

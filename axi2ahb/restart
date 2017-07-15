@@ -1,0 +1,4 @@
+vlog -f files
+restart -f
+log -r *
+run 1500ns

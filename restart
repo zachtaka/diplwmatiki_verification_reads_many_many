@@ -1,0 +1,4 @@
+vlog  +define+VERBOSE+AXI4PC_OFF -sv -f flist_common -f flist_rtl_axi4_duth_noc -f flist_tb -f flist_rtl	
+restart -f
+log -r *
+run 1000 ms

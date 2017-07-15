@@ -1,0 +1,3 @@
++incdir+axi/arm_axi_protocol_checker/
+
+axi/axi_global_pkg.sv

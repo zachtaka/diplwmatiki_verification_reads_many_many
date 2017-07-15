@@ -1,0 +1,5 @@
+vlog -f files
+vsim -novopt wrapper 
+log -r *
+do wave.do
+run 1800ns
